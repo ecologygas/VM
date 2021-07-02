@@ -125,6 +125,9 @@ public class Kanri {
                 }
             } else if (mode == 4) {
                 System.out.println("現在の売上額は" + sales + "円です");
+            }else if(mode == 5){
+                System.out.println("管理者モードを終了します");
+                break;
             }
         }
     }
